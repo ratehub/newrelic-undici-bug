@@ -1,0 +1,20 @@
+{
+  "name": "newrelic-undici-bug",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "description": "A reproduction of newrelic reporting caught errors",
+  "license": "UNLICENSED",
+  "author": "Lee Robert",
+  "scripts": {
+    "dev": "node --env-file=.env --require=newrelic src/index.js"
+  },
+  "dependencies": {
+    "newrelic": "^12.13.0"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": "you-must-use-pnpm"
+  },
+  "packageManager": "pnpm@9.15.2+sha512.93e57b0126f0df74ce6bff29680394c0ba54ec47246b9cf321f0121d8d9bb03f750a705f24edc3c1180853afd7c2c3b94196d0a3d53d3e069d9e2793ef11f321"
+}
