@@ -1,3 +1,5 @@
+Solved with https://github.com/newrelic/node-newrelic/pull/2956
+
 # Description
 
 The undici instrumentation reports errors that have been caught in a try/catch. This causes noise and we're forced to either ignore all undici errors or live with a poor signal-to-noise ratio. 
